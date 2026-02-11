@@ -30,6 +30,7 @@ Udah itu aja, sisanya tolong call ya kak kalo udah baca sampe sini.
 
 Love you sayang!
 -Faris, yang selalu bersyukur hidup dengan kamu.
+`
 };
 
 if(config.name) {
