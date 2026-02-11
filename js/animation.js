@@ -7,22 +7,9 @@ const config = {
 
     nickname: "sayang", // nickname(optional)
 
-    pic: "resources/img/asset.jpeg", //image url of recipients (Mandatory)
+    pic: "https://i.imgur.com/2PoS5Wj.jpeg", //image url of recipients (Mandatory)
 
     showScrollMsg: true, // set to false if you do not want the scrolling message
-
-    longMessage: [
-"Dari 12 Agustus 2025 kemarin, kita udah genap setengah tahun sayang, keren ga sih?!!",
-"Bener-bener ga pernah kebayang bakal bisa balikan sama kamu, but here we are,",
-"udah 6 bulan and still counting! Semoga kita bisa bareng terus sampe akhirnya nikah nanti",
-"dan lanjut bareng terus sampe selamanya ya sayang.",
-"",
-"Maaf untuk semua kekurangan aku selama inii...",
-"",
-"Love you sayang!",
-"-Faris, yang selalu bersyukur hidup dengan kamu."
-].join("\n")
-
 };
 
 if(config.name) {
@@ -189,9 +176,7 @@ button.addEventListener("click",function(){
             return;
         }
 
-        document.querySelector(".HBD").textContent = "Happy 6th Month Anniversary Sayang";
-
-        msg.innerHTML = config.longMessage.replace(/\n/g, "<br>");
+        document.querySelector(".HBD").textContent = "May your soul rest in peace";
 
         frames[1].style.display = "flex";
 
@@ -209,7 +194,7 @@ button.addEventListener("click",function(){
         setTimeout(() => {
             msgWindow.classList.add("fade-in");
             msgWindow.style.opacity = '0';
-        },150000);
+        },88000);
 
         setTimeout(() => {
             frames[1].style.display = "none";
