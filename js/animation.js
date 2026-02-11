@@ -24,7 +24,7 @@ if(config.pic)
   //  document.querySelector('.bd-pic').style.backgroundImage = `url(${config.pic})`;
 
 /*************************************************** ANIMATION CODE *******************************************************/
-const button = document.querySelector(".btn"),
+var button = document.querySelector(".btn"),
     darkroom = document.querySelector(".darkroom"),
     giftroom = document.querySelector(".giftroom"),
     hallway = document.querySelector(".hallway"),
