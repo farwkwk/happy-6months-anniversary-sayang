@@ -3,13 +3,33 @@
 /******************************************************* SETUP ************************************************************/
 
 const config = {
-    name: "Farah", // actual name of the recipient (Mandatory)
+    name: "Tasnim", // actual name of the recipient (Mandatory)
 
-    nickname: "farah", // nickname(optional)
+    nickname: "sayang", // nickname(optional)
 
-    pic: "https://telegra.ph/file/1a883e4d3997a471778d5.png", //image url of recipients (Mandatory)
+    pic: "https://drive.google.com/file/d/1rPha6tu5xUvUyLCSmiBoog4WAY0gwYuA/view", //image url of recipients (Mandatory)
 
     showScrollMsg: true, // set to false if you do not want the scrolling message
+
+     longMessage: `
+Dari 12 Agustus 2025 kemarin, kita udah genap setengah tahun sayang, keren ga sih?!! 
+Bener-bener ga pernah kebayang bakal bisa balikan sama kamu, but here we are, 
+udah 6 bulan and still counting! Semoga kita bisa bareng terus sampe akhirnya nikah nanti 
+dan lanjut bareng terus sampe selamanya ya sayang.
+
+Maaf untuk semua kekurangan aku selama inii. Aku sadar sebenernya masih banyak kurangnya, 
+dan kamu sangat aman berusaha keras untuk jaga hubungan ini juga. 
+Semoga kita bisa sama-sama jadi lebih baik dan saling nguatin satu sama lain ke depannya ya sayang. 
+Semoga kamu ga cape untuk selalu ngingetin aku kalo aku salah dan selalu sabar ngadepin 
+segala dinamika di hubungan kita ke depannya.
+
+Semoga kita bisa merayakan tanggal 12 setiap bulan sampe nanti kita punya tanggal spesial lain ya sayang, 
+alias tanggal kita menikah nantii. 
+Oiya, btw, sebenernya tadi aku ga tidur tapi mau bikin ini hehehe (semoga kamu sukaaaaa). 
+Udah itu aja, sisanya tolong call ya kak kalo udah baca sampe sini.
+
+Love you sayang!
+-Faris, yang selalu bersyukur hidup dengan kamu.
 };
 
 if(config.name) {
@@ -176,7 +196,9 @@ button.addEventListener("click",function(){
             return;
         }
 
-        document.querySelector(".HBD").textContent = "Happy Birthday";
+        document.querySelector(".HBD").textContent = "Happy 6th Month Anniversary Sayang!!!";
+
+        msg.innerHTML = config.longMessage.replace(/\n/g, "<br>");
 
         frames[1].style.display = "flex";
 
@@ -194,7 +216,7 @@ button.addEventListener("click",function(){
         setTimeout(() => {
             msgWindow.classList.add("fade-in");
             msgWindow.style.opacity = '0';
-        },88000);
+        },150000);
 
         setTimeout(() => {
             frames[1].style.display = "none";
