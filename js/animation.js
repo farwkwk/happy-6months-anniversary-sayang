@@ -1,6 +1,3 @@
-alert("JS loaded");
-var config = {
-
 //jshint esversion:6
 
 /******************************************************* SETUP ************************************************************/
@@ -27,7 +24,6 @@ if(config.pic)
   //  document.querySelector('.bd-pic').style.backgroundImage = `url(${config.pic})`;
 
 /*************************************************** ANIMATION CODE *******************************************************/
-
 const button = document.querySelector(".btn"),
     darkroom = document.querySelector(".darkroom"),
     giftroom = document.querySelector(".giftroom"),
