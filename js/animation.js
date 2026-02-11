@@ -7,7 +7,7 @@ const config = {
 
     nickname: "sayang", // nickname(optional)
 
-    pic: "https://drive.google.com/file/d/1rPha6tu5xUvUyLCSmiBoog4WAY0gwYuA/view", //image url of recipients (Mandatory)
+    pic: "resources/img/asset.jpeg", //image url of recipients (Mandatory)
 
     showScrollMsg: true, // set to false if you do not want the scrolling message
 
