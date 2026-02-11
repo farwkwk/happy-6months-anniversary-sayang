@@ -196,7 +196,7 @@ button.addEventListener("click",function(){
             return;
         }
 
-        document.querySelector(".HBD").textContent = "Happy 6th Month Anniversary Sayang!!!";
+        document.querySelector(".HBD").textContent = "Happy 6th Month Anniversary Sayang";
 
         msg.innerHTML = config.longMessage.replace(/\n/g, "<br>");
 
