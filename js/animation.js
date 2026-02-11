@@ -7,7 +7,7 @@ const config = {
 
     nickname: "sayang", // nickname(optional)
 
-   // pic: "https://i.imgur.com/2PoS5Wj.jpeg", //image url of recipients (Mandatory)
+   pic: "https://i.imgur.com/2PoS5Wj.jpeg", //image url of recipients (Mandatory)
 
     showScrollMsg: true, // set to false if you do not want the scrolling message
 };
